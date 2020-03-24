@@ -6,6 +6,8 @@ require "open-uri"
 
 require "InstaCLI/version"
 require "InstaCLI/cli"
+require "InstaCLI/instagrams"
+require "InstaCLI/scraper"
 
 require "pry"
 

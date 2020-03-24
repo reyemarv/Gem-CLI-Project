@@ -1,8 +1,6 @@
 # InstaCLI
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/InstaCLI`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to your new gem! With this gem, you will find the ability to scrape a site which in turn will return to you the current top 25 instagram accounts. These accounts are ranked by current followers. Once your list is shown, you will have the ability to get more details of account. Their rank, name on account, their instagram handle, and the amount of followers they have. Hope you enjoy! 
 
 ## Installation
 
@@ -22,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Once you run program you will be welcomed in. From here you will be asked  whether you would like to see a list of the top 25 instagram account. 
+
+If you answer no, you will be exited out with a goodbye message. However, if you answered yes, you will be given a list of current top 25. 
+
+From here you will be asked if you would like more details on a specific account. If you choose exit, you will be exited out of program with goodbye message. If you choose to get more details on an account, you can enter in a number from list. You will then receive all details of that account from website. 
+
+After this, you will be asked if you would like to see detailso on another account. You may choose another from the list or choose to exit program. 
 
 ## Development
 
