@@ -8,7 +8,6 @@ class Scraper
         html = self.get_page
         html.css("div .table-body").each do |user|
             account = Instagram.new
-            binding.pry 
             account.name = user.css(".table-cell.section-lg").text
             account.rank = user.css(".table-cell.section-rank").text
             account.user_name = user.css(".table-cell:nth-child(3)").text 
